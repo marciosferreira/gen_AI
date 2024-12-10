@@ -1,0 +1,1 @@
+It Needs to run as python 3.10 due to incompatibility between python 3.12 and FAISS

@@ -1,0 +1,17 @@
+# Ignorar a pasta do ambiente virtual
+gen_AI_env/
+models/
+
+# Ignorar arquivos temporários e desnecessários
+*.pyc
+*.pyo
+*.log
+__pycache__/
+
+# Ignorar configurações de editor
+.vscode/
+.idea/
+
+# Ignorar arquivos de controle de versão (opcional)
+.git/
+.gitignore
