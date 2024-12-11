@@ -1,5 +1,7 @@
 # Ignorar a pasta do ambiente virtual
 gen_AI_env/
+
+# Ignorar modelos de NLP
 models/
 
 # Ignorar arquivos temporários e desnecessários
@@ -15,3 +17,8 @@ __pycache__/
 # Ignorar arquivos de controle de versão (opcional)
 .git/
 .gitignore
+
+
+# ignorar arquivos necessários apenas para a criaçao da imagem
+Dockerfile
+.dockerignore

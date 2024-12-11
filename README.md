@@ -1,1 +1,2 @@
-It Needs to run as python 3.10 due to incompatibility between python 3.12 and FAISS
+It Needs to run as python 3.10 due to incompatibility between python 3.12 and FAISS-GPU
+rode o container no modo destacado <docker run -d gen_ai:latest> e conecte pelo vscode par usar o jupyter com o script
