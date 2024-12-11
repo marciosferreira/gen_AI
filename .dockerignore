@@ -1,9 +1,6 @@
 # Ignorar a pasta do ambiente virtual
 gen_AI_env/
 
-# Ignorar modelos de NLP
-models/
-
 # Ignorar arquivos temporários e desnecessários
 *.pyc
 *.pyo
@@ -21,4 +18,5 @@ __pycache__/
 
 # ignorar arquivos necessários apenas para a criaçao da imagem
 Dockerfile
+docker-compose.yaml
 .dockerignore
