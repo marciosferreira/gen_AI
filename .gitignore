@@ -1,6 +1,4 @@
 models
-llama.cpp
 llama
 .vscode
 gen_AI_env
-venv_3_12

@@ -31,7 +31,7 @@ RUN wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz && \
     cd .. && \
     rm -rf Python-3.10.16 Python-3.10.16.tgz
 
-# Atualize o pip e instale ferramentas necessárias
+# Atualize o pip e instale ferramentas necessárias, incluindo Jupyter Notebook
 RUN python3.10 -m pip install --upgrade pip setuptools wheel ipykernel jupyter
 
 # Defina o Python 3.10.16 como padrão para evitar conflitos
@@ -39,6 +39,13 @@ RUN update-alternatives --install /usr/bin/python python /usr/local/bin/python3.
     update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.10 1 && \
     update-alternatives --set python /usr/local/bin/python3.10 && \
     update-alternatives --set python3 /usr/local/bin/python3.10
+
+# Configure o Jupyter Notebook para permitir conexões sem token ou senha
+RUN mkdir -p /root/.jupyter && \
+    echo "c.NotebookApp.ip = '0.0.0.0'" >> /root/.jupyter/jupyter_notebook_config.py && \
+    echo "c.NotebookApp.open_browser = False" >> /root/.jupyter/jupyter_notebook_config.py && \
+    echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py && \
+    echo "c.NotebookApp.password = ''" >> /root/.jupyter/jupyter_notebook_config.py
 
 # Copie o arquivo requirements.txt e instale as dependências globalmente
 COPY requirements.txt /app/requirements.txt
@@ -55,3 +62,6 @@ COPY . .
 
 # Exponha as portas necessárias
 EXPOSE 8000 8888
+
+# Comando para iniciar o Jupyter Notebook
+CMD ["jupyter", "notebook", "--port=8000", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
