@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gen_ai:latest
+    ports:
+      - "8000:8000"
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      LLAMA_CUBLAS: 1
+    command: >
+      jupyter notebook --port=8000 --no-browser --ip=0.0.0.0 --allow-root

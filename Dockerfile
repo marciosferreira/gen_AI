@@ -40,16 +40,6 @@ RUN update-alternatives --install /usr/bin/python python /usr/local/bin/python3.
     update-alternatives --set python /usr/local/bin/python3.10 && \
     update-alternatives --set python3 /usr/local/bin/python3.10
 
-# Verifique as versões do Python e do pip
-RUN python --version && pip --version
-
-# Configure o Jupyter para permitir conexões remotas
-RUN mkdir -p /root/.jupyter && \
-    echo "c.NotebookApp.ip = '0.0.0.0'" >> /root/.jupyter/jupyter_notebook_config.py && \
-    echo "c.NotebookApp.open_browser = False" >> /root/.jupyter/jupyter_notebook_config.py && \
-    echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py && \
-    echo "c.NotebookApp.password = ''" >> /root/.jupyter/jupyter_notebook_config.py
-
 # Copie o arquivo requirements.txt e instale as dependências globalmente
 COPY requirements.txt /app/requirements.txt
 RUN pip install -r /app/requirements.txt
@@ -65,10 +55,3 @@ COPY . .
 
 # Exponha as portas necessárias
 EXPOSE 8000 8888
-
-# Garantir que o arquivo entrypoint.sh esteja executável
-RUN chmod +x ./app/entrypoint.sh
-
-# Defina o comando padrão para rodar o contêiner
-#CMD ["sh", "-c", "./app/entrypoint.sh & tail -f /dev/null"]
-CMD ["jupyter", "notebook", "--port=8000", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
