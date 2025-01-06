@@ -1,0 +1,15 @@
+transformers==4.46.3
+torch
+torchvision
+torchaudio
+bitsandbytes
+accelerate
+sentence-transformers
+langchain
+langchain-community
+unstructured[pdf]
+langchain-huggingface
+faiss-cpu
+docling
+pyarrow
+fastparquet

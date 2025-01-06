@@ -1,0 +1,4 @@
+entao: 
+sudo apt-get update
+sudo apt-get install libmagic1
+pip install -r requirements.txt
