@@ -1,0 +1,416 @@
+[
+    {
+        "id": "standard_general",
+        "type": "general_info",
+        "plan": "Standard",
+        "category": "Subscription Plan",
+        "feature": "Cost",
+        "details": "Complimentary",
+        "subgroup": null
+    },
+    {
+        "id": "gold star_general",
+        "type": "general_info",
+        "plan": "Gold Star",
+        "category": "Subscription Plan",
+        "feature": "Cost",
+        "details": "Approx.$8USD/mo",
+        "subgroup": null
+    },
+    {
+        "id": "standard_3",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Manual Capture (5MP) and Record \u24d8",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_3",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Manual Capture (5MP) and Record \u24d8",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_4",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Camera Timer \u24d8",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_4",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Camera Timer \u24d8",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_5",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Mobile Phone Image Upload Support\n* From your phone to your Family Album",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_5",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Mobile Phone Image Upload Support\n* From your phone to your Family Album",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_6",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Baby Bubble Tree",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_6",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Baby Bubble Tree",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_7",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Festive Live e-Card",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_7",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Festive Live e-Card",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_8",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Themed Story \u24d8",
+        "details": "View only",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_8",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Themed Story \u24d8",
+        "details": "Create/edit/save/share stories/AI Family Faces",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_9",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Time-Lapse Video\n* SD card required",
+        "details": "x",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_9",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Time-Lapse Video\n* SD card required",
+        "details": "Save and share one clip Per day/week/month",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_10",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Themed Frames - Festive Series\n* Localized holidays (11+) and birthdays covering 36 months",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_10",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Themed Frames - Festive Series\n* Localized holidays (11+) and birthdays covering 36 months",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_11",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Themed Frames - Milestone Series\n* 7+ Styles and 30 Milestones (Update periodically)",
+        "details": "x",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "gold star_11",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Themed Frames - Milestone Series\n* 7+ Styles and 30 Milestones (Update periodically)",
+        "details": "\u2713",
+        "subgroup": "Digital Keepsakes"
+    },
+    {
+        "id": "standard_13",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "AI Soothing Music\n* Built-in songs",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_13",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "AI Soothing Music\n* Built-in songs",
+        "details": "+4 albums",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_14",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Expert-curated Playlists",
+        "details": "x",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_14",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Expert-curated Playlists",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_15",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Music Scheduler\n* 10 Schedules",
+        "details": "x",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_15",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Music Scheduler\n* 10 Schedules",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_16",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Voice Recorder\n* 2 Mins each",
+        "details": "x",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_16",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Voice Recorder\n* 2 Mins each",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_17",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Parentese Recorder\n* Pixsee Friends only / 30 mins",
+        "details": "x",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_17",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Parentese Recorder\n* Pixsee Friends only / 30 mins",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_18",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Pixsee Friends Exclusive Playlist\n* Built-in songs",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_18",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Pixsee Friends Exclusive Playlist\n* Built-in songs",
+        "details": "On-demand playback on Pixsee App",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_19",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Pixsee Friends Audio Stories\n*Built-in stories",
+        "details": "\u2713",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "gold star_19",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Pixsee Friends Audio Stories\n*Built-in stories",
+        "details": "On-demand playback on Pixsee App",
+        "subgroup": "Sound Enlightenment\n*Pixsee Play requires SD card"
+    },
+    {
+        "id": "standard_21",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Multiple User Support \u24d8",
+        "details": "+2 person",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "gold star_21",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Multiple User Support \u24d8",
+        "details": "+5 person",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "standard_22",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Multiple Baby Support",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "gold star_22",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Multiple Baby Support",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "standard_23",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Multiple Device Support\n* Up to 3 Pixsee cameras",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "gold star_23",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Multiple Device Support\n* Up to 3 Pixsee cameras",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "standard_24",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Privacy Settings \u24d8",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "gold star_24",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Privacy Settings \u24d8",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "standard_25",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Amazon Alexa Support",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "gold star_25",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Amazon Alexa Support",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "standard_26",
+        "type": "feature",
+        "plan": "Standard",
+        "category": "Feature",
+        "feature": "Pixsee Play Voice Command \u24d8",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    },
+    {
+        "id": "gold star_26",
+        "type": "feature",
+        "plan": "Gold Star",
+        "category": "Feature",
+        "feature": "Pixsee Play Voice Command \u24d8",
+        "details": "\u2713",
+        "subgroup": "Advanced Support"
+    }
+]
