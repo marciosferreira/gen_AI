@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+.vscode
+llama
+llama.cpp
+meu_indice_faiss
+models/Meta-Llama-3-8B-Instruct
+models
+scratch
